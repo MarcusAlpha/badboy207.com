@@ -6,7 +6,7 @@ body {background-color: #444444;}
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 100%;
+  width: 33.33%;
   padding: 5px;
 }
 
@@ -15,13 +15,4 @@ body {background-color: #444444;}
   content: "";
   clear: both;
   display: table;
-}
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-  padding: 0px;
 }
