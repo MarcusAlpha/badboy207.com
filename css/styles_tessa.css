@@ -5,9 +5,14 @@ body {background-color: #444444;}
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .tessafax {
-  float: left;
-  width: 30%;
-    padding-right: 10px;
+  padding: 10px;
+  margin-left: 30rem;
+  width: 50%;
+
+}
+
+.tessafax a {
+  padding-right: 30px;
 }
 
 /* Clear floats after image containers */
